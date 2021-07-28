@@ -7,14 +7,13 @@ export const PrimaryButton = styled.button`
     border: none;
     cursor: pointer;
     outline: none;
-    height: 60px;
-    width: 83%;
-    padding: auto 40px;
+    height: 30px;
+    width: 100%;
     background-color: var(--primary);
     color: var(--white);
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Montserrat';
 `;
 
@@ -23,14 +22,13 @@ export const SecondaryButton = styled.button`
     border: none;
     cursor: pointer;
     outline: none;
-    height: 60px;
-    width: 83%;
-    padding: auto 40px;
+    height: 30px;
+    width: 100%;
     background-color: var(--white);
     color: var(--primary);
     border: 2px var(--primary) solid;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Montserrat';
 `;

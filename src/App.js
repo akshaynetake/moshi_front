@@ -4,7 +4,6 @@ import { transitions, positions, Provider as AlertProvider } from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic'
 
 import Auth from '../src/screens/Auth/Auth';
-import Test from '../src/screens/Test/Test';
 
 function App() {
 
@@ -17,7 +16,7 @@ function App() {
 
   return (
     <AlertProvider template={AlertTemplate} {...options}>
-      <Test />
+      <Auth />
     </AlertProvider>
   );
 }

@@ -71,11 +71,11 @@ const Signin = (props) => {
 
     return (
         <Container>
-            <TextField value={email} onChange={handleEmail} placeholder={"Email"} />
-            <TextField value={password} onChange={handlePassword} type={'password'} placeholder={"Password"} />
+            <TextField value={email} onChange={handleEmail} placeholder={"Email"} heading={"EMAIL"}/>
+            <TextField value={password} onChange={handlePassword} type={'password'} placeholder={"Password"} heading={"PASSWORD"}/>
             <ButtonsContainer>
-                <PrimaryButton onClick={loginCall}>Login</PrimaryButton>
-                <SecondaryButton onClick={handleLogin}>Register</SecondaryButton>
+                <PrimaryButton onClick={loginCall}>Login to workspace</PrimaryButton>
+                <SecondaryButton onClick={handleLogin}>Create Workspace</SecondaryButton>
             </ButtonsContainer>
         </Container>
     )
